@@ -11,6 +11,7 @@ public class exer5 {
         result = Math.pow(l, 2);
         System.out.println("A área do quadrado é :" + result);
         
+        System.out.println("fim");
     }
     
 }
