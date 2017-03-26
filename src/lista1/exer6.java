@@ -15,7 +15,7 @@ public class exer6 {
         
         
         Scanner leia = new Scanner(System.in);
-        double a , b, c, A;
+        double a , b, c, A , R, O, P;
         
         System.out.print("Digite o valor de A: ");
         a = leia.nextDouble();
@@ -39,8 +39,21 @@ public class exer6 {
                 + " por bases e C por altura = " + A );
         
         //Formula da área do Quadrado é A = l² ou A = b*h
-       // A = Math.pow(b, 2);
-       A = (b*b);
+        R = Math.pow(b, 2);
+        System.out.println("A área do quadrado que tem lado B = " + R);
+        
+        //Formula da área do Retangulo é A = b * h
+        O = a * b;
+        System.out.println("A área do retângulo que tem lados A e B = " + O);
+        
+        /*Formula para calcular o  perímetro do retângulo que tem lados A e B =
+        P = 2(b + h)
+        */
+        P = (2*(a + b));
+        System.out.println("O perímetro do retângulo "
+                + "que tem lados A e B = " + P);
+   
+       
        
         
       
